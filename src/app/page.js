@@ -150,11 +150,11 @@ const Products = () => {
                     <div className='mt-auto bg-white text-white py-4 px-6 flex flex-col justify-end h-max'>
                         <form action="">
                             <div className='flex flex-col my-7 '>
-                                <div className='flex flex-row justify-center mb-5'>
+                                <div className='flex flex-col sm:flex-row  justify-center mb-5 gap-3'>
                                     <label className='text-gray-700 text-lg mr-10' htmlFor="name">Name:</label>
                                     <input className='text-gray-800 border-gray-500' type="text" name="name" id="name" placeholder="Enter Name" value={newGPIO.name} onChange={(e) => { setNewGPIO({ ...newGPIO, name: e.target.value }) }} />
                                 </div>
-                                <div className='flex flex-row justify-center'>
+                                <div className='flex flex-col sm:flex-row justify-center gap-3'>
                                     <label className='text-gray-700 text-lg mr-10 ' htmlFor="pin">Pin No:</label>
                                     <input className='text-gray-800 border-gray-500' type="number" name="pin" id="pin" placeholder="0" value={newGPIO.pin} onChange={(e) => { setNewGPIO({ ...newGPIO, pin: e.target.value }) }} />
                                 </div>
