@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Readopia",
+    title: "ESP8266 | Controll Panel",
     description: "Created by Aditya Sawant for Aditi Mahadik",
 };
 

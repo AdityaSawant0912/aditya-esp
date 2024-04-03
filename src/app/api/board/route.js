@@ -9,7 +9,7 @@ export async function GET(req) {
         return NextResponse.json({ error: 'Database connection error', dberror: error })
     }
     try {
-        const gpios = await GPIO.find()
+        const gpios = await GPIO.find({})
         
         let obj = {}
         gpios.forEach(gpio => {
