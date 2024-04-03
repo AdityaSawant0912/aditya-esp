@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = ({ toggleCart }) => {
   return (
-      <nav className="bg-gray-800 text-white py-4">
+      <nav className="bg-gray-800 text-white py-4 px-5">
           <div className="container mx-auto flex justify-between items-center">
               <Link href="/">
                   <span className="text-xl font-semibold">Aditya Sawant&apos;s ESP8266</span>
